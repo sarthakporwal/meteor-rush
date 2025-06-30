@@ -1,7 +1,7 @@
 # Meteor Rush
 
 <p align="center">
-  <img src="icon.png" alt="Meteor Rush Logo" width="120"/>
+  <img src="public/screenshot.png" alt="Meteor Rush Logo" width="1000"/>
 </p>
 
 Meteor Rush is a gesture-controlled browser game built with Next.js and TypeScript. Use your hand gestures (via webcam) to control a rocket and dodge falling meteors. The game leverages real-time hand tracking using MediaPipe and provides an engaging, interactive experience.
@@ -11,8 +11,8 @@ Meteor Rush is a gesture-controlled browser game built with Next.js and TypeScri
 ## Gameplay
 
 <p align="center">
-  <img src="rocket.png" alt="Rocket" width="80" style="margin-right: 20px;"/>
-  <img src="met.png" alt="Meteor" width="80"/>
+  <img src="public/description.png" alt="Rocket" width="800" style="margin-right: 20px;"/>
+  
 </p>
 
 - **Control the Rocket:** Use your hands in front of your webcam. The game detects the tilt between your left and right hands to move the rocket left or right.
@@ -64,7 +64,12 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to play.
 - **UI:** Tailwind CSS, Lucide React Icons, FontAwesome
 - **Audio:** [Tone.js](https://tonejs.github.io/)
 
----
+ <p align="center">
+  <img src="public/testing.png" alt="Rocket" width="500" style="margin-right: 20px;"/>
+  
+</p>
+
+
 
 ## Project Structure
 - `app/` — Next.js app directory (pages, layout)
