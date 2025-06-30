@@ -1,6 +1,7 @@
 import { Loader2, RocketIcon } from 'lucide-react';
 import React from 'react'
 import SocialMediaLinks from './SocialLinks';
+import { uptime } from 'process';
 
 type Props = {
     info: any
@@ -20,6 +21,7 @@ const GameInfoOverlay = ({ info }: Props) => {
             <div className='fixed top-6 right-6'>{`Distance: ${distance}`}</div>
             <div className='fixed top-12 right-6 flex flex-row gap-1'>{lives}</div>
             <div className='text-xs fixed bottom-6 right-6 space-y-4 flex flex-row items-center gap-3'>
+                <p></p>
                 <SocialMediaLinks />
             </div>
         </div>
