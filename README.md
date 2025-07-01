@@ -53,7 +53,7 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to play.
+Open [Meteror-Rush](https://meteor-rush.vercel.app/) in your browser to play.
 
 ---
 
